@@ -1,0 +1,11 @@
+/* Universal style */
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(125, 116, 106);
+    color: white;
+}
+
+h2 {color: hsl(196, 100%, 50%);}
+h3 {color: #000;}
+
+#fcolor {color:#ff0077;}
