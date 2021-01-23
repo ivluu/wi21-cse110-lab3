@@ -1,13 +1,18 @@
 /* Universal style */
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(125, 116, 106);
+    background-color: rgb(97, 90, 82);
     color: white;
     text-align: center;   
 }
-#name h1{font-size: 10vh;}
-h2 {color: hsl(196, 100%, 50%);}
-h3 {color: #000;}
+#name h1{font-size: 8vw;}
+h2 {
+    color: hsl(196, 100%, 50%);
+    font-size: 3vw;
+}
+h3 {
+    color: #000;
+}
 
 nav {
     border-style: solid;
@@ -30,4 +35,13 @@ table {
 }
 th {color: hsl(196, 100%, 50%);}
 
-#fcolor {color:#ff0077;}
+#fcolor {
+    display: inline;
+    color:#ff0077;
+}
+#quote {
+    display: block;
+}
+#schedule {
+    padding: 20px 0px 0px 0px;
+}
