@@ -29,7 +29,15 @@ nav{
 nav a{
     padding: 0px 10px 0px 10px;
 }
-
+nav a:hover{
+    color: white;
+}
+nav a:active{
+    color: hsl(196, 100%, 50%);
+}
+summary {
+    outline: none;
+}
 #name {
     padding-top: 1px;
 }
@@ -49,6 +57,17 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-shrink: 1;
+}
+.container img {
+    width: 200px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
 th {color: hsl(196, 100%, 50%);}
 
 #fcolor {
@@ -61,7 +80,6 @@ th {color: hsl(196, 100%, 50%);}
 #schedule {
     padding: 20px 0px 0px 0px;
 }
-
 iframe {
     min-width: 50%;
     max-width: 80;
@@ -69,3 +87,11 @@ iframe {
 footer {
     padding-bottom: 50px;
 }
+figure picture img{
+    width: 200px;
+}
+@media screen and (min-width: 600px) {
+    figure picture img{
+        width: 300px;
+    }
+  }
