@@ -1,31 +1,44 @@
 /* Universal style */
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(97, 90, 82);
-    color: white;
-    text-align: center;   
+    color: black;
+    text-align: center;
 }
-#name h1{font-size: 8vw;}
+body{
+    margin: 0;
+    padding-top:0;
+}
+
 h2 {
     color: hsl(196, 100%, 50%);
-    font-size: 3vw;
 }
 h3 {
     color: #000;
 }
 
-nav {
-    border-style: solid;
-    border-color: hsl(196, 100%, 50%);
-    border-width: 2px;
-    border-radius: 25px;
+nav{
     font-size: 14pt;
+    background-color: #333;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#name {
+    padding-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
 }
 
 table, th, td {
     border-style: solid;
     border-collapse: collapse;
-    border-color: white;
+    border-color: #000;
     border-width: 2px;
     font-size: 2vw;
 }
