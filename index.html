@@ -8,18 +8,18 @@
         <title>Ivan Luu</title>
     </head>
     <style>
-        nav a {color:#ffb8d9;}
-      </style>
+        nav a {
+            display: inline;
+            color:#ffb8d9;
+        }
+    </style>
     <body>
-        <header id="name">
-            <h1 style="color: #ffb8d9">Ivan Luu</h1>
-        </header>
         <nav>
-            <a href="#who">Who</a>
-            <a href="#what">What</a>
-            <a href="#where">Where</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#misc">Misc</a>
+            <header id="name">
+                <h1 style="color: #ffb8d9">Ivan Luu</h1>
+            </header>
+            <a href="index.html">About</a>
+            <a href="https://github.com/ivluu">Github</a>
         </nav>
         <main>
             <h1>About Me</h1>
@@ -141,78 +141,7 @@
         <svg width="100" height="100">
             <rect width="100" height="100"></rect>
         </svg><br>
-        <button type="button">Click here for absolutely nothing!</button>
-        <template>
-            <h2>Hidden Content</h2>
-        </template>
-        <h2 id="contact">About you</h2>
-        <form>
-            <fieldset>
-                <legend>Info</legend>
-                <label>First Name:</label><br>
-                <input type="text"><br><br>
-                <label>Last Name:</label><br>
-                <input type="text"><br><br>
-                <label>Phone Number:</label><br>
-                <input type="tel"><br><br>
-                <label>Email:</label><br>
-                <input type="email"><br><br>              
-                <label>Birthday:</label><br>
-                <input type="date"><br><br>
-            </fieldset>
-            <fieldset>
-                <legend>Misc</legend>
-                <label>Favorite Color</label><br>
-                <input type="color"><br><br>
-                <label>Favorite Song</label><br>
-                <input type="url"><br><br>
-
-                <label>Favorite Seasons</label><br>
-                <input type="checkbox">
-                <label>Spring</label><br>
-                <input type="checkbox">
-                <label>Summer</label><br>
-                <input type="checkbox">
-                <label>Fall</label><br>
-                <input type="checkbox">
-                <label>Winter</label><br><br>
-
-                <label>Favorite Meal of the Day</label><br>
-                <input type="radio">
-                <label>Breakfast</label><br>
-                <input type="radio">
-                <label>Lunch</label><br>
-                <input type="Radio">
-                <label>Dinner</label><br><br>
-
-                <label>Choose a Star Wars character:</label><br>
-                <select>
-                <optgroup label="Light">
-                    <option>Luke Skywalker</option>
-                    <option>Han Solo</option>
-                    <option>Princess Leia</option>
-                </optgroup>
-                <optgroup label="Dark">
-                    <option>Darth Vader</option>
-                    <option>Darth Maul</option>
-                    <option>Emperor Palpatine</option>
-                </optgroup>
-                </select><br><br>
-
-                <label>Soup or Salad?</label><br>
-                <input list="food">
-                <datalist id="food">
-                    <option value="Soup">
-                    <option value="Salad">
-                    <option value="What's a super salad?"></option>
-                </datalist><br><br>
-
-                <label>Message</label><br>
-                <textarea placeholder="Type your message here."></textarea><br>
-                <input type="reset">
-                <input type="submit"><br>
-            </fieldset>
-        </form><br>     
-        <footer><a href="#name">Back to top</a></footer>
+        <button type="button">Click here for absolutely nothing!</button><br><br>
+        <footer><a href="#who">Back to top</a></footer>
     </body>
 </html>
