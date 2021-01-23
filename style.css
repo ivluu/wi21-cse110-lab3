@@ -2,11 +2,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     color: black;
-    text-align: center;
 }
 body{
     margin: 0;
     padding-top:0;
+    text-align: center;
 }
 
 h2 {
@@ -29,12 +29,11 @@ nav{
 #name {
     padding-top: 10px;
 }
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
+ul, ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left
 }
-
 table, th, td {
     border-style: solid;
     border-collapse: collapse;
@@ -57,4 +56,12 @@ th {color: hsl(196, 100%, 50%);}
 }
 #schedule {
     padding: 20px 0px 0px 0px;
+}
+
+iframe {
+    min-width: 50%;
+    max-width: 80;
+}
+footer {
+    padding-bottom: 50px;
 }
